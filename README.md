@@ -1,2 +1,2 @@
 # DOBEDO 
-A Terminal based to-do list. 
+A Terminal based to-do list app. 

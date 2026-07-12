@@ -39,10 +39,9 @@ Since Ink is a React renderer, all features of React are supported. Head over to
 
 
 ## Concepts for the day 
----
 
 ### what is a Hook? 
----
+
 
 A hook is simply a special function that lets your component use React's internal features. 
 - useState() : Persistent memory
@@ -50,9 +49,8 @@ A hook is simply a special function that lets your component use React's interna
 > useState doesn't store state inside your component. It gives your component access to state that React stores outside the component, and calling the setter tells React to update that state and render the component again.
 
 - useEffect() : Run side effects after rendering
----
 
-Why Hooks Must Always Be Called in Order?
+### Why Hooks Must Always Be Called in Order?
 
 Imagine this:
 ```js
@@ -114,8 +112,8 @@ React.createElement(Text, null, "Hello")
 
 **React Renderers: react never draws anythings instead**
 > React --> Renderer --> Platform(Browser/Terminal/Native Views)
-
-> So a React component's basically a js function that returns a description of the UI. 
+>
+>> So a React component's basically a js function that returns a description of the UI. 
 
 
 
