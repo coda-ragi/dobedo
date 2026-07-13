@@ -115,6 +115,44 @@ React.createElement(Text, null, "Hello")
 >
 >> So a React component's basically a js function that returns a description of the UI. 
 
+---
 
+# 13-07-2026
+
+## JavaScript Concepts Overview for reference 
+
+### Foundations
+
+- JavaScript: A high-level scripting language, standardized as ECMAScript, used for interactive web development and server-side programming.
+- V8 Engine: A high-performance engine that uses Just-in-Time (JIT) compilation to execute JavaScript code efficiently.
+- Variables: Data containers declared using let (reassignable), const (immutable), or the legacy var.
+- Dynamic Typing: The language determines data types at runtime rather than requiring explicit type definitions.
+
+### Functions & Scope
+
+- Lexical Environment: The scope rules that determine where variables are accessible (Global, Local, or Block scope).
+- Higher-Order Functions: Functions that accept other functions as arguments or return them as output.
+- Closures: A mechanism where an inner function retains access to its outer function's scope even after the outer function has executed.
+- 'this' Keyword: A reference that changes based on how a function is invoked.
+- Arrow Functions: A concise, anonymous function syntax that does not possess its own 'this' context.
+
+### Objects & Data
+
+- Prototypal Inheritance: Objects inheriting directly from other objects via a prototype chain.
+- Classes: Syntactic sugar built on top of prototypal inheritance to structure object-oriented code.
+- Built-in Structures: Includes Arrays (indexed collections), Maps (key-value pairs), and memory-efficient versions like WeakMap and WeakSet.
+- Garbage Collection: Automatic memory management that deallocates objects no longer in use.
+
+### Asynchronous JavaScript
+
+- Event Loop: A non-blocking model that allows single-threaded JavaScript to handle multiple tasks concurrently.
+- Callbacks: Functions passed as arguments to be executed later, often leading to "callback hell" if nested excessively.
+- Promises: Objects representing the eventual completion (or failure) of an asynchronous operation.
+- Async/Await: Syntactic sugar that allows writing asynchronous code that reads like synchronous code.
+- Web & Modern Development
+- DOM (Document Object Model): The tree structure representing the UI, allowing JavaScript to manipulate HTML elements.
+- Declarative/Reactive UI: Modern frameworks update the UI automatically based on changing data states.
+- Module Bundlers: Tools like Vite or Webpack that package code for production deployment.
+- TypeScript/ESLint: Static analysis tools used to improve code quality and catch errors early.
 
 
