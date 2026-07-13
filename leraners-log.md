@@ -149,7 +149,9 @@ React.createElement(Text, null, "Hello")
 - Callbacks: Functions passed as arguments to be executed later, often leading to "callback hell" if nested excessively.
 - Promises: Objects representing the eventual completion (or failure) of an asynchronous operation.
 - Async/Await: Syntactic sugar that allows writing asynchronous code that reads like synchronous code.
-- Web & Modern Development
+
+### Web & Modern Development
+
 - DOM (Document Object Model): The tree structure representing the UI, allowing JavaScript to manipulate HTML elements.
 - Declarative/Reactive UI: Modern frameworks update the UI automatically based on changing data states.
 - Module Bundlers: Tools like Vite or Webpack that package code for production deployment.
