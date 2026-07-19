@@ -155,6 +155,6 @@ React.createElement(Text, null, "Hello")
 - DOM (Document Object Model): The tree structure representing the UI, allowing JavaScript to manipulate HTML elements.
 - Declarative/Reactive UI: Modern frameworks update the UI automatically based on changing data states.
 - Module Bundlers: Tools like Vite or Webpack that package code for production deployment.
-- TypeScript/ESLint: Static analysis tools used to improve code quality and catch errors early.
+- TypeScript/ESLint: Static analysis tools used to improve code quality and catch errors early. 
 
 
