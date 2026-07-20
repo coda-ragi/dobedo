@@ -5,6 +5,9 @@ import Header from "./components/Header.js";
 import Divider from "./components/Divider.js";
 import TodoList from "./components/TodoList.js";
 import Footer from "./components/Footer.js";
+import Sidebar from "./components/Sidebar.js";
+import MainPanel from "./components/MainPanel.js";
+import StatusBar from "./components/StatusBar.js";
 
 import useKeyboard from "./hooks/useKeyboard.js";
 
@@ -22,15 +25,23 @@ export default function App() {
     useKeyboard(selectedIndex, setSelectedIndex);
 
     return (
-        <Box flexDirection="column">
-            <Header selectedIndex={selectedIndex} />
-            <Divider />
-           <TodoList
-    tasks={tasks}
-    selectedIndex={selectedIndex}
-/>
-            <Divider />
-            <Footer />
-        </Box>
+        <Box flexDirection="column" padding={10}>
+
+    <Header />
+
+    <Box>
+
+        <Sidebar />
+
+        <MainPanel
+            tasks={tasks}
+            selectedIndex={selectedIndex}
+        />
+
+    </Box>
+
+    <StatusBar />
+
+</Box>
     );
 }

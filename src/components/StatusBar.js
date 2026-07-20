@@ -1,19 +1,19 @@
 import React from "react";
 import { Box, Text } from "ink";
 
-export default function Header() {
+export default function StatusBar() {
     return (
         <Box
             borderStyle="single"
             justifyContent="space-between"
             paddingX={1}
         >
-            <Text bold color="cyan">
-                ◉ DOBEDO
+            <Text>
+                A Add   D Delete   Space Toggle
             </Text>
 
-            <Text>
-                Alpha v0.1
+            <Text color="green">
+                NORMAL
             </Text>
         </Box>
     );

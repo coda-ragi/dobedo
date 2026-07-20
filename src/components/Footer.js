@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Text } from "ink";
 
+
 export default function Footer() {
     return (
         <Box marginTop={1}>
